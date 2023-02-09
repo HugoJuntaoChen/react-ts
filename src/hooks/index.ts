@@ -1,4 +1,4 @@
-import { AppDispatch, RootState } from "@/redux/counter/counterSlice";
+import { RootState, AppDispatch } from "@/redux/store";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 import { TypedUseSelectorHook } from "react-redux";
