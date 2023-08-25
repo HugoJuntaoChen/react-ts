@@ -24,6 +24,7 @@ const Header = () => {
     const addFn = () => {
         dispatch(increment());
     }
+    
     const reFn = () => {
         dispatch(decrement());
     }
